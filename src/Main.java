@@ -33,8 +33,10 @@ public class Main {
         System.out.println(RichClass.doubleArea(maker.getArrayList()));
         */
 
+        maker.makeArrayList();
         Collection<Circle> arrayOfCircles = RichClass.select(maker.getArrayList(), Circle.class);
         System.out.println(arrayOfCircles);
+
 
     }
 

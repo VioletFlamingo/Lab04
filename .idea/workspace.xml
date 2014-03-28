@@ -89,7 +89,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="44" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.0" vertical-offset="362" max-vertical-offset="1095">
+            <state line="38" column="0" selection-start="1380" selection-end="1380" vertical-scroll-proportion="0.0" vertical-offset="437" max-vertical-offset="1125">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,10 +109,12 @@
       <file leaf-file-name="RichClass.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/RichClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="9" selection-start="950" selection-end="950" vertical-scroll-proportion="0.71014494" vertical-offset="156" max-vertical-offset="600">
+            <state line="36" column="88" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.7266436" vertical-offset="300" max-vertical-offset="1005">
               <folding>
                 <element signature="e#454#674#0" expanded="true" />
                 <element signature="e#663#664#0" expanded="true" />
+                <element signature="e#804#810#0" expanded="true" />
+                <element signature="e#1529#1530#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -182,10 +184,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="464" />
-    <option name="y" value="96" />
+    <option name="x" value="428" />
+    <option name="y" value="205" />
     <option name="width" value="975" />
-    <option name="height" value="763" />
+    <option name="height" value="651" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -538,20 +540,24 @@
       <changelist id="35b57319-e1fc-4d16-b2bd-517384b331a3" name="Default" comment="" />
       <created>1396047381824</created>
       <updated>1396047381824</updated>
-      <workItem from="1396047386342" duration="1163000" />
+      <workItem from="1396047386342" duration="3236000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1396047835048</created>
       <updated>1396047835048</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit&#10;">
+      <created>1396048556465</created>
+      <updated>1396048556465</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1163000" />
+    <option name="totallyTimeSpent" value="3236000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="464" y="96" width="975" height="763" extended-state="0" />
+    <frame x="428" y="205" width="975" height="651" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -567,14 +573,14 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299712" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26564103" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3299712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3934708" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -633,13 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="10" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
@@ -663,19 +662,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="44" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.0" vertical-offset="362" max-vertical-offset="1095">
+        <state line="38" column="0" selection-start="1380" selection-end="1380" vertical-scroll-proportion="0.0" vertical-offset="437" max-vertical-offset="1125">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="10" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/RichClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="9" selection-start="950" selection-end="950" vertical-scroll-proportion="0.71014494" vertical-offset="156" max-vertical-offset="600">
+        <state line="36" column="88" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.7266436" vertical-offset="300" max-vertical-offset="1005">
           <folding>
             <element signature="e#454#674#0" expanded="true" />
             <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#804#810#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
           </folding>
         </state>
       </provider>

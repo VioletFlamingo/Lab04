@@ -27,7 +27,7 @@ public class RichClass{
         });
     }
 
-    public static <T,E> Collection<E> fun(Collection<T> col, Class <E> myClass) {
+    public static <T,E> Collection<E> select(Collection<T> col, Class <E> myClass) {
         Collection<T> result=  new ArrayList<T>();
         for (T elem : col) {
             if (myClass==elem.getClass()) {

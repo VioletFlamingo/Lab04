@@ -3,10 +3,7 @@
  */
 
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class RichClass{
     public static <E,T> Map<T, E> map (Collection<T> c, Function<T, E> f) {
@@ -27,13 +24,13 @@ public class RichClass{
         });
     }
 
-    public static <T,E> Collection<E> select(Collection<T> col, Class <E> myClass) {
-        Collection<T> result=  new ArrayList<T>();
+    public static <T,E> Collection<E> select(Collection<T> col, Class<E> myClass) {
+        ArrayList<T> result=  new ArrayList<T>();
         for (T elem : col) {
-            if (myClass==elem.getClass()) {
-                    result.add(elem);
+            if (myClass == elem.getClass()) {
+                result.add(elem);
             }
         }
-        return (Collection<E>) result;
+        return (ArrayList<E>) result;
     }
 }

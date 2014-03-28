@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Comparator;
 
 public class Main {
@@ -32,7 +33,7 @@ public class Main {
         System.out.println(RichClass.doubleArea(maker.getArrayList()));
         */
 
-        ArrayList<Circle> arrayOfCircles =(ArrayList<Circle>) RichClass.select(maker.getArrayList(), Circle.class);
+        Collection<Circle> arrayOfCircles = RichClass.select(maker.getArrayList(), Circle.class);
         System.out.println(arrayOfCircles);
 
     }

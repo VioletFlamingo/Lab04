@@ -4,7 +4,6 @@
     <list default="true" id="35b57319-e1fc-4d16-b2bd-517384b331a3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RichClass.java" afterPath="$PROJECT_DIR$/src/RichClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Lab04.iws" />
@@ -90,7 +89,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1080">
+            <state line="35" column="44" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.0" vertical-offset="362" max-vertical-offset="1095">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,10 +109,10 @@
       <file leaf-file-name="RichClass.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/RichClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="44" selection-start="813" selection-end="813" vertical-scroll-proportion="0.7246377" vertical-offset="60" max-vertical-offset="600">
+            <state line="32" column="9" selection-start="950" selection-end="950" vertical-scroll-proportion="0.71014494" vertical-offset="156" max-vertical-offset="600">
               <folding>
-                <element signature="e#539#759#0" expanded="true" />
-                <element signature="e#748#749#0" expanded="true" />
+                <element signature="e#454#674#0" expanded="true" />
+                <element signature="e#663#664#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,15 +176,15 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/RichClass.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/RichClass.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="357" />
+    <option name="x" value="464" />
     <option name="y" value="96" />
-    <option name="width" value="1082" />
+    <option name="width" value="975" />
     <option name="height" value="763" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -539,15 +538,20 @@
       <changelist id="35b57319-e1fc-4d16-b2bd-517384b331a3" name="Default" comment="" />
       <created>1396047381824</created>
       <updated>1396047381824</updated>
-      <workItem from="1396047386342" duration="441000" />
+      <workItem from="1396047386342" duration="1163000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit&#10;">
+      <created>1396047835048</created>
+      <updated>1396047835048</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="441000" />
+    <option name="totallyTimeSpent" value="1163000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="357" y="96" width="1082" height="763" extended-state="0" />
+    <frame x="464" y="96" width="975" height="763" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -569,7 +573,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23937154" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26564103" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3299712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -590,6 +594,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Initial commit&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -657,7 +663,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1080">
+        <state line="35" column="44" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.0" vertical-offset="362" max-vertical-offset="1095">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -666,10 +672,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RichClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="44" selection-start="813" selection-end="813" vertical-scroll-proportion="0.7246377" vertical-offset="60" max-vertical-offset="600">
+        <state line="32" column="9" selection-start="950" selection-end="950" vertical-scroll-proportion="0.71014494" vertical-offset="156" max-vertical-offset="600">
           <folding>
-            <element signature="e#539#759#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#454#674#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
           </folding>
         </state>
       </provider>

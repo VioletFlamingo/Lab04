@@ -29,7 +29,7 @@ public class RichClass{
         List <T> listOfGroup;
         Map <K, List<T>>result = new HashMap<K, List <T>>();
         for (T elem : col) {
-            if(result.containsKey(f.apply((elem)))==false) {
+            if(!result.containsKey(f.apply((elem)))) {
                 listOfGroup = new ArrayList<T>();
             } else {
                 listOfGroup=result.get(f.apply(elem));

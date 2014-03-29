@@ -1,4 +1,4 @@
-public class Triangle extends AbstractFigure implements Figure {
+public class Triangle extends AbstractFigure{
     private final Color col;
     private final double length;
 

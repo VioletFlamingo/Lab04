@@ -1,4 +1,4 @@
-public class Circle extends AbstractFigure implements Figure {
+public class Circle extends AbstractFigure{
     private final double r;
     private final Color col;
 

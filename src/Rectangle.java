@@ -1,4 +1,4 @@
-public class Rectangle extends AbstractFigure implements Figure{
+public class Rectangle extends AbstractFigure{
     private final double length;
     private final double width;
     private final Color col;

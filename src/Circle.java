@@ -17,7 +17,7 @@ public class Circle implements Figure {
 
     @Override
     public String toString() {
-        return "Circle, color: "+this.getColor()+", area: "+this.getArea()+"; ";
+        return "Circle, color: "+this.getColor()+", area: "+this.getArea()+" ";
     }
 
     @Override

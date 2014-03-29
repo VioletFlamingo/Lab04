@@ -19,7 +19,7 @@ public class Rectangle implements Figure{
 
     @Override
     public String toString() {
-        return "Rectangle, color: "+this.getColor()+", area: "+this.getArea()+"; ";
+        return "Rectangle, color: "+this.getColor()+", area: "+this.getArea()+" ";
     }
 
     @Override

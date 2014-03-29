@@ -17,7 +17,7 @@ public class Triangle implements Figure {
 
     @Override
     public String toString() {
-        return "Triangle, color: "+this.getColor()+", area: "+this.getArea()+"; ";
+        return "Triangle, color: "+this.getColor()+", area: "+this.getArea()+" ";
     }
 
     @Override

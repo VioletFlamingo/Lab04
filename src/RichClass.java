@@ -25,26 +25,37 @@ public class RichClass{
     }
 
 
-    public static <T, K> Map<K, T> group(Collection<T> col, Function <K, T> f) {
-        Map <K, T>result = new HashMap<K, T>();
+    public static <T, K> Map<K, List<T>> group(Collection<T> col, Function <T, K> f) {
+        List <T> listOfGroup;
+        Map <K, List<T>>result = new HashMap<K, List <T>>();
         for (T elem : col) {
-            f.apply(elem, result);
+            if(result.containsKey(f.apply((elem)))==false) {
+                listOfGroup = new ArrayList<T>();
+            } else {
+                listOfGroup=result.get(f.apply(elem));
+            }
+            listOfGroup.add(elem);
+            result.put(f.apply(elem), listOfGroup);
         }
+        return result;
     }
 
 
-    public static Map<Integer, Figure> groupByFigure(Collection<Figure> myCollection) {
-        return groupByFigure(myCollection, new Function <Figure, HashMap<Integer, Figure>>() {
+    public static Map<Integer, List<Figure>> groupByFigure(Collection<Figure> myCollection) {
+        return group(myCollection, new Function <Figure, Integer>() {
             @Override
-            public Double apply(Figure element, Map<Integer, Figure> map) {
+            public Integer apply(Figure element) {
                 if (element instanceof Triangle) {
-                    map.put(0, element);
+                    return 0;
                 }
-                else if (element instanceof Triangle) {
-                    map.put(1, element);
+                else if (element instanceof Rectangle) {
+                    return 1;
                 }
-                else if (element instanceof Triangle) {
-                    map.put(2, element);
+                else if (element instanceof Circle) {
+                    return 2;
+                } else {
+                    //temporary for other cases that may appear in the future
+                    return 3;
                 }
             }
         });

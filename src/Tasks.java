@@ -14,7 +14,7 @@ public class Tasks {
 
     private static void listWithForEachAndIterator(FigureMaker maker) {
         maker.makeArrayList();
-        System.out.println("Listed with for each:");
+        System.out.println(" Listed with for each:");
         Listing.listWithForEach(maker.getArrayList());
 
         System.out.println("\n \n \n In order to area, listed with iterator:");

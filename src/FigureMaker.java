@@ -8,7 +8,7 @@ public class FigureMaker{
     public void makeArrayList () {
         figures = new ArrayList<Figure>();
         Random rand = new Random();
-        int numberOfFigures = rand.nextInt(30);
+        int numberOfFigures = rand.nextInt(30)+1;
         for(int i=0; i<numberOfFigures; i++) {
             switch (whichFigure()) {
                 case 0 : figures.add(createRandomCircle()); break;
@@ -21,7 +21,9 @@ public class FigureMaker{
     public void makeHashSet() {
         figureSet = new HashSet<Figure>();
         figureSet.add(new Triangle(2, Color.RED));
+        figureSet.add(new Triangle(2, Color.RED));
         figureSet.add(new Triangle(2, Color.GREEN));
+        figureSet.add(new Triangle(3, Color.GREEN));
         figureSet.add(new Circle(2, Color.RED));
     }
 

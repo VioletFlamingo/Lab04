@@ -1,4 +1,4 @@
-public class Rectangle implements Figure{
+public class Rectangle extends AbstractFigure implements Figure{
     private final double length;
     private final double width;
     private final Color col;
@@ -23,36 +23,12 @@ public class Rectangle implements Figure{
     }
 
     @Override
-    public boolean equals (Object f) {
-        if (f instanceof Figure) {
-            Figure g=(Figure)f;
-            if (this.getClass()==g.getClass()&&this.getColor()==g.getColor()) {
-                return true;
-            }
-        }
-        return false;
-    }
-
-
-    @Override
     public int hashCode() {
         long xHash = Double.doubleToLongBits(length);
         long yHash = Double.doubleToLongBits(width);
         int hash = (int) (xHash ^ (xHash >>> 32));
         hash += 37 * (int) (yHash ^ (yHash >>> 32));
         return hash;
-    }
-
-
-    @Override
-    public int compareTo(Figure f) {
-        if (this.getArea()<f.getArea()) {
-            return 1;
-        }
-        else if (this.getArea()>f.getArea()) {
-            return -1;
-        }
-        return 0;
     }
 }
 

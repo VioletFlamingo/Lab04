@@ -15,29 +15,29 @@ public class Tasks {
     private static void listWithForEachAndIterator(FigureMaker maker) {
         maker.makeArrayList();
         System.out.println("Listed with for each:");
-        CollectionControl.listWithForEach(maker.getArrayList());
+        Listing.listWithForEach(maker.getArrayList());
 
         System.out.println("\n \n \n In order to area, listed with iterator:");
         Collections.sort(maker.getArrayList(), new FigureAreaComparator());
-        CollectionControl.listWithIterator(maker.getArrayList());
+        Listing.listWithIterator(maker.getArrayList());
     }
 
     private static void treatGreenAndRedAsTheSame(FigureMaker maker) {
         System.out.println("\n \n \n Green and red figures treated as the same:");
         maker.makeHashSet();
-        CollectionControl.listWithForEach(maker.getSet());
+        Listing.listWithForEach(maker.getSet());
     }
 
     private static void listInOrderOfDecreasingArea(FigureMaker maker) {
         System.out.println("\n \n \n In order of decreasing area:");
         maker.makeTreeSet();
-        CollectionControl.listWithForEach(maker.getSet());
+        Listing.listWithForEach(maker.getSet());
     }
 
     private static void listInOrderOfAddingElements(FigureMaker maker) {
         System.out.println("\n \n \n In order of adding elements");
         maker.makeLinkedTreeSet();
-        CollectionControl.listWithForEach(maker.getSet());
+        Listing.listWithForEach(maker.getSet());
     }
 
 

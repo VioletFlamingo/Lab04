@@ -5,7 +5,7 @@
 import java.util.Collection;
 import java.util.Iterator;
 
-public class CollectionControl {
+public class Listing {
     public static void listWithForEach(Collection<Figure> collection) {
         for (Figure f : collection) {
             System.out.println(f.toString());

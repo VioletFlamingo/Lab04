@@ -8,7 +8,7 @@ public class FigureMaker{
     public void makeArrayList () {
         figures = new ArrayList<Figure>();
         Random rand = new Random();
-        int numberOfFigures = rand.nextInt(100);
+        int numberOfFigures = rand.nextInt(30);
         for(int i=0; i<numberOfFigures; i++) {
             switch (whichFigure()) {
                 case 0 : figures.add(createRandomCircle()); break;
@@ -68,12 +68,12 @@ public class FigureMaker{
         return new Triangle(length, createRandomColor());
     }
 
-    public int whichFigure () {
+    private int whichFigure () {
         Random rand = new Random();
         return rand.nextInt(3);
     }
 
-    public Color createRandomColor() {
+    private Color createRandomColor() {
         int pick = new Random().nextInt(Color.values().length);
         return Color.values()[pick];
     }

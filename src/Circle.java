@@ -8,7 +8,7 @@ public class Circle extends AbstractFigure{
     }
 
     public double getArea () {
-        return (double)3.14*r*r;
+        return (double)Math.PI*r*r;
     }
 
     public Color getColor () {

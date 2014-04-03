@@ -63,7 +63,7 @@ public class RichClass{
 
 
     public static <T,E> Collection<E> select(Collection<T> col, Class<E> myClass) {
-        ArrayList<T> result=  new ArrayList<T>();
+        List<T> result=  new ArrayList<T>();
         for (T elem : col) {
             if (myClass == elem.getClass()) {
                 result.add(elem);

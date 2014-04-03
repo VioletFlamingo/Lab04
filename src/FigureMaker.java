@@ -4,10 +4,10 @@ import java.util.*;
 public class FigureMaker{
     private List<Figure> figures;
     private Set<Figure> figureSet;
+    Random rand = new Random();
 
     public void makeArrayList () {
         figures = new ArrayList<Figure>();
-        Random rand = new Random();
         int numberOfFigures = rand.nextInt(30)+1;
         for(int i=0; i<numberOfFigures; i++) {
             switch (whichFigure()) {
@@ -52,31 +52,27 @@ public class FigureMaker{
     }
 
     public Circle createRandomCircle () {
-        Random rand = new Random();
         double r = rand.nextDouble();
         return new Circle(r, createRandomColor());
     }
 
     public Rectangle createRandomRectangle () {
-        Random rand = new Random();
         double length = rand.nextDouble();
         double width = rand.nextDouble();
         return new Rectangle(length, width, createRandomColor());
     }
 
     public Triangle createRandomTriangle () {
-        Random rand = new Random();
         double length = rand.nextDouble();
         return new Triangle(length, createRandomColor());
     }
 
     private int whichFigure () {
-        Random rand = new Random();
         return rand.nextInt(3);
     }
 
     private Color createRandomColor() {
-        int pick = new Random().nextInt(Color.values().length);
+        int pick = rand.nextInt(Color.values().length);
         return Color.values()[pick];
     }
 }

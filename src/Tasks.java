@@ -76,26 +76,7 @@ public class Tasks {
     private static class FigureAreaComparator implements Comparator<Figure> {
         @Override
         public int compare(Figure f1, Figure f2) {
-            return ((Double)f1.getArea()).compareTo((Double)f2.getArea());
-        }
-    }
-
-
-    private static class FigureComparatorForSet implements Comparator<Figure> {
-        @Override
-        public int compare(Figure f1, Figure f2) {
-            if (f1.getArea()<f2.getArea()) {
-                return -1;
-            }
-            else if (f1.getArea()>f2.getArea()) {
-                return 1;
-            }
-            else if (f1.getClass()==f2.getClass()&&f1.getColor()==f2.getColor()) {
-                return 0;
-            }
-            else {
-                return -1;
-            }
+            return Double.compare(f1.getArea(), f2.getArea());
         }
     }
 }

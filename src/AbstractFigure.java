@@ -14,7 +14,7 @@ public abstract class AbstractFigure implements Figure{
                     return true;
                 }
                 else if (this.getColor()==Color.RED && g.getColor()==Color.GREEN) {
-
+                    return true;
                 }
             }
         }
@@ -24,12 +24,6 @@ public abstract class AbstractFigure implements Figure{
 
     @Override
     public int compareTo(Figure f) {
-        if (this.getArea()<f.getArea()) {
-            return 1;
-        }
-        else if (this.getArea()>f.getArea()) {
-            return -1;
-        }
-        return 0;
+        return Double.compare(this.getArea(), f.getArea());
     }
 }

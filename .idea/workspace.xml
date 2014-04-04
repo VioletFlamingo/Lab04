@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35b57319-e1fc-4d16-b2bd-517384b331a3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AbstractFigure.java" afterPath="$PROJECT_DIR$/src/AbstractFigure.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Circle.java" afterPath="$PROJECT_DIR$/src/Circle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Figure.java" afterPath="$PROJECT_DIR$/src/Figure.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FigureMaker.java" afterPath="$PROJECT_DIR$/src/FigureMaker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab04.iml" afterPath="$PROJECT_DIR$/Lab04.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Rectangle.java" afterPath="$PROJECT_DIR$/src/Rectangle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RichClass.java" afterPath="$PROJECT_DIR$/src/RichClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Triangle.java" afterPath="$PROJECT_DIR$/src/Triangle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DaltonUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FigureSize.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Lab04.iws" />
@@ -75,10 +68,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Function.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Function.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Function.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="10" selection-start="56" selection-end="56" vertical-scroll-proportion="0.16806723" vertical-offset="0" max-vertical-offset="357">
+            <state line="4" column="10" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
               <folding />
             </state>
           </provider>
@@ -148,14 +141,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Listing.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Listing.java">
+      <file leaf-file-name="DaltonUtils.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DaltonUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="3" column="26" selection-start="71" selection-end="71" vertical-scroll-proportion="0.12893982" vertical-offset="0" max-vertical-offset="349">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -210,7 +200,7 @@
     <option name="x" value="15" />
     <option name="y" value="22" />
     <option name="width" value="1196" />
-    <option name="height" value="834" />
+    <option name="height" value="826" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -579,7 +569,7 @@
       <changelist id="35b57319-e1fc-4d16-b2bd-517384b331a3" name="Default" comment="" />
       <created>1396047381824</created>
       <updated>1396047381824</updated>
-      <workItem from="1396047386342" duration="18198000" />
+      <workItem from="1396047386342" duration="18283000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1396047835048</created>
@@ -629,14 +619,18 @@
       <created>1396556765592</created>
       <updated>1396556765592</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Initial commit&#10;">
+      <created>1396570046353</created>
+      <updated>1396570046353</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18198000" />
+    <option name="totallyTimeSpent" value="18283000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="15" y="22" width="1196" height="834" extended-state="0" />
+    <frame x="15" y="22" width="1196" height="826" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -659,7 +653,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21655518" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46666667" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47159842" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -709,13 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DaltonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="26" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Color.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="20" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
@@ -751,15 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="33" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FigureSize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="24" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="765">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -801,7 +779,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Function.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="10" selection-start="56" selection-end="56" vertical-scroll-proportion="0.16806723" vertical-offset="0" max-vertical-offset="357">
+        <state line="4" column="10" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FigureSize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="24" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="765">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DaltonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="26" selection-start="71" selection-end="71" vertical-scroll-proportion="0.12893982" vertical-offset="0" max-vertical-offset="349">
           <folding />
         </state>
       </provider>

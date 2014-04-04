@@ -1,14 +1,13 @@
 public class Circle extends AbstractFigure{
-    private final double r;
     private final Color col;
 
     public Circle (double r, Color c) {
-        this.r=r;
+        dims=new FigureSize<Double>(r);
         this.col=c;
     }
 
     public double getArea () {
-        return (double)Math.PI*r*r;
+        return (double)Math.PI*dims.getDim(0)*dims.getDim(0);
     }
 
     public Color getColor () {
@@ -22,7 +21,7 @@ public class Circle extends AbstractFigure{
 
     @Override
     public int hashCode() {
-        long hash = Double.doubleToLongBits(r);
+        long hash = Double.doubleToLongBits(dims.getDim(0));
         return (int)hash;
     }
 }

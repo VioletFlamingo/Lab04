@@ -41,32 +41,22 @@ public class RichClass{
     }
 
 
-    public static Map<Integer, List<Figure>> groupByFigure(Collection<Figure> myCollection) {
-        return group(myCollection, new Function <Figure, Integer>() {
+    public static Map<Class<? extends Figure>, List<Figure>> groupByFigure(Collection<Figure> myCollection) {
+        return group(myCollection, new Function <Figure, Class<? extends Figure>>() {
             @Override
-            public Integer apply(Figure element) {
-                if (element instanceof Triangle) {
-                    return 0;
-                }
-                else if (element instanceof Rectangle) {
-                    return 1;
-                }
-                else if (element instanceof Circle) {
-                    return 2;
-                } else {
-                    //temporary for other cases that may appear in the future
-                    return 3;
-                }
+            public Class<? extends Figure> apply(Figure element) {
+                return element.getClass();
             }
         });
     }
 
 
-    public static <T,E> Collection<E> select(Collection<T> col, Class<E> myClass) {
-        List<T> result=  new ArrayList<T>();
+
+    public static <T, E extends T> Collection<E> select(Collection<T> col, Class<E> myClass) {
+        final Collection<E> result=  new ArrayList<E>();
         for (T elem : col) {
-            if (myClass == elem.getClass()) {
-                result.add(elem);
+            if (myClass.isInstance(elem)) {
+                result.add(myClass.cast(elem));
             }
         }
         return (ArrayList<E>) result;

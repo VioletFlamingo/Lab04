@@ -1,9 +1,8 @@
 public class Triangle extends AbstractFigure{
     private final Color col;
-    private final double length;
 
     public Triangle (double length, Color c) {
-        this.length=length;
+        dims = new FigureSize<Double>(length);
         this.col=c;
     }
 
@@ -12,7 +11,7 @@ public class Triangle extends AbstractFigure{
     }
 
     public double getArea() {
-        return (double) 0.5*length*length;
+        return (double) 0.5 * dims.getDim(0) * dims.getDim(0);
     }
 
     @Override
@@ -22,7 +21,7 @@ public class Triangle extends AbstractFigure{
 
     @Override
     public int hashCode() {
-        long hash = Double.doubleToLongBits(length);
+        long hash = Double.doubleToLongBits(dims.getDim(0));
         return (int)hash;
     }
 }

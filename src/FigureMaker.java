@@ -20,11 +20,15 @@ public class FigureMaker{
 
     public void makeHashSet() {
         figureSet = new HashSet<Figure>();
-        figureSet.add(new Triangle(2, Color.RED));
-        figureSet.add(new Triangle(2, Color.RED));
+        figureSet.add(new Triangle(3, Color.RED));
+        figureSet.add(new Triangle(3, Color.RED));
         figureSet.add(new Triangle(2, Color.GREEN));
         figureSet.add(new Triangle(3, Color.GREEN));
+        figureSet.add(new Triangle(3, Color.BLACK));
         figureSet.add(new Circle(2, Color.RED));
+        figureSet.add(new Circle(3, Color.RED));
+        figureSet.add(new Rectangle(1, 3, Color.BLUE));
+        figureSet.add(new Rectangle(3, 1, Color.BLUE));
     }
 
     public void makeTreeSet() {

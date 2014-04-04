@@ -1,11 +1,8 @@
 public class Rectangle extends AbstractFigure{
-    private final double length;
-    private final double width;
     private final Color col;
 
     public Rectangle (double length, double width, Color c){
-        this.length=length;
-        this.width=width;
+        dims = new FigureSize(length, width);
         this.col=c;
     }
 
@@ -14,7 +11,7 @@ public class Rectangle extends AbstractFigure{
     }
 
     public double getArea () {
-        return (double)length*width;
+        return dims.getDim(0)* dims.getDim(1);
     }
 
     @Override
@@ -24,8 +21,8 @@ public class Rectangle extends AbstractFigure{
 
     @Override
     public int hashCode() {
-        long xHash = Double.doubleToLongBits(length);
-        long yHash = Double.doubleToLongBits(width);
+        long xHash = Double.doubleToLongBits(dims.getDim(0));
+        long yHash = Double.doubleToLongBits(dims.getDim(1));
         int hash = (int) (xHash ^ (xHash >>> 32));
         hash += 37 * (int) (yHash ^ (yHash >>> 32));
         return hash;

@@ -2,20 +2,18 @@
  * Created by Paulina on 29.03.2014.
  */
 public abstract class AbstractFigure implements Figure{
+    protected FigureSize<Double> dims;
+
+    public FigureSize<Double> getDims(){
+        return dims;
+    }
+
     @Override
     public boolean equals (Object f) {
         if (f instanceof Figure) {
             Figure g=(Figure)f;
-            if (this.getClass()==g.getClass()&&this.getArea()==g.getArea()) {
-                if(this.getColor()==g.getColor()){
-                    return true;
-                }
-                else if (this.getColor()==Color.GREEN && g.getColor()==Color.RED) {
-                    return true;
-                }
-                else if (this.getColor()==Color.RED && g.getColor()==Color.GREEN) {
-                    return true;
-                }
+            if (this.getClass()==g.getClass()&&this.dims.equals(g.getDims())) {
+                return DaltonUtils.colorEquals(this, g);
             }
         }
         return false;

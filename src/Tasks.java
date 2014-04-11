@@ -2,6 +2,8 @@
  * Created by Paulina on 29.03.2014.
  */
 
+import java.io.File;
+import java.io.IOException;
 import java.util.*;
 
 public class Tasks {
@@ -70,6 +72,21 @@ public class Tasks {
         System.out.println(arrayOfCircles);
     }
 
+
+    public static void lab06 () {
+        File f = new File ("figures.csv");
+        if (f.exists()) {
+            try {
+                Collection<Figure> collection = FigureReader.readFromFile(f);
+                Listing.listWithForEach(collection);
+                FigureReader.splitByColor(collection);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        } else {
+            System.out.println("File does not exist");
+        }
+    }
 
 
 
